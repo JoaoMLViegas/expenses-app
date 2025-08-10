@@ -38,7 +38,12 @@ A simple and intuitive web application to help you **track expenses and debts**,
    ```
 4. Open http://localhost:5173
 
-## Preview
+## Live Demo & Preview
+
+Try the app live here:  
+[https://JoaoMLViegas.github.io/expenses-app](https://JoaoMLViegas.github.io/expenses-app)
+
+Here are some screenshots to give you a quick look at the app:
 
 ![Home Page](public/home-page.png)
 
@@ -49,3 +54,20 @@ A simple and intuitive web application to help you **track expenses and debts**,
 ![Debts Page](public/debts-page.png)
 
 ![Data Backup](public/data-backup.png)
+
+## Deployment
+
+To deploy your own version on GitHub Pages:
+
+1. Set `"homepage"` in `package.json` to your GitHub Pages URL.
+
+2. Run:
+
+   ```bash
+   npm run build
+   npm run deploy
+   ```
+
+3. Your app will be available on your GitHub Pages URL.
+
+_Note:_ This app uses React Router's **HashRouter** for GitHub Pages compatibility.
